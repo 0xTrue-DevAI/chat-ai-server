@@ -28,7 +28,7 @@ async function analyzeSentiment(text) {
   const manager = new NlpManager({ languages: ['id'] });
 
   // Menambahkan data training untuk analisis sentimen
-  manager.addDocument('id', cleanedText, 'sentiment');
+  manager.addDocument('id', cleanedText, 'positif');
 
   // Melatih model untuk analisis sentimen
   await manager.train();
@@ -43,7 +43,7 @@ async function analyzeSentiment(text) {
     // Jika teks bukan dalam bahasa Indonesia, alihkan ke bahasa Inggris
     const normalizerEn = new NormalizerEn();
     const managerEn = new NlpManager({ languages: ['en'] });
-    managerEn.addDocument('en', normalizerEn.normalize(cleanedText), 'sentiment');
+    managerEn.addDocument('en', normalizerEn.normalize(cleanedText), 'positif');
     await managerEn.train();
     const responseEn = await managerEn.process('en', normalizerEn.normalize(cleanedText));
     return responseEn.intent;
