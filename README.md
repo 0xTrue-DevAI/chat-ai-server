@@ -59,12 +59,12 @@ Selain itu, Anda juga dapat menyesuaikan parameter seperti threshold untuk anali
 ```
 - ./libs/chatAI.js
 - ./libs/predictAnswer.js
-- ./libs/server.js
+- ./libs/analyzeSentiment.js
 - ./libs/scrapeWikipedia.js
-- server.js
 - model/
   - model.json
   - group1-shard1of1.bin
+- server.js
 - package.json
 - README.md
 ```
