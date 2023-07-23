@@ -103,7 +103,7 @@ git clone https://github.com/0xTrue-DevAI/chat-ai-server.git
 
 Pastikan Anda mengganti `nama_pengguna` dan `nama_repositori` dengan URL repositori yang sesuai.
 
-![TensorFlow.js]([image/tensorflowjs.png])
+![TensorFlow.js](image/tensorflowjs.png)
 
 ## Langkah 2: Navigasi ke Direktori Repositori
 
