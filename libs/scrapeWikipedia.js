@@ -117,8 +117,8 @@ async function googleSearch(query) {
     manager.addDocument('id', cleanedText, 'wikiText');
 
     // Menambahkan header dan footer untuk menyusun jawaban lebih relevan dan natural
-    const headerText = "Berikut adalah beberapa informasi yang dapat saya temukan dari Wikipedia:\n";
-    const footerText = "\n\nSumber: Wikipedia";
+    const headerText = "Berikut adalah beberapa informasi yang dapat saya temukan dari Google:\n";
+    const footerText = "\n\nSumber: Google";
 
     // Melatih model untuk analisis bahasa
     await manager.train();
