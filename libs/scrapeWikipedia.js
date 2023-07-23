@@ -8,7 +8,7 @@ async function scrapeWikipedia(question) {
   const config = {
     headers: {
       'Authority': 'id.wikipedia.org',
-      'Cookie': 'GeoIP=ID:JB:Cilangkap:-6.76:107.39:v4; idwikimwuser-sessionId=fc80d68f759077d5deea; WMF-Last-Access=23-Jul-2023; WMF-Last-Access-Global=23-Jul-2023; NetworkProbeLimit=0.001; idwikiwmE-sessionTickLastTickTime=1690111043154; idwikiwmE-sessionTickTickCount=13',
+      'Cookie': 'GeoIP=ID:JB:Cilangkap:-5.76:107.39:v4; idwikimwuser-sessionId=fc80d68f759077d5deea; WMF-Last-Access=23-Jul-2023; WMF-Last-Access-Global=23-Jul-2023; NetworkProbeLimit=0.001; idwikiwmE-sessionTickLastTickTime=1690111043154; idwikiwmE-sessionTickTickCount=13',
       'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36'
     }
   };
