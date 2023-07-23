@@ -1,0 +1,31 @@
+{
+  "name": "chat-ai-server",
+  "version": "1.0.0",
+  "description": "Server API for Chat AI",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "train": "node train.js"
+  },
+  "keywords": [
+    "chat",
+    "ai",
+    "nlp",
+    "tensorflow",
+    "server",
+    "api"
+  ],
+  "author": "0xTrue-Dev",
+  "license": "MIT",
+  "dependencies": {
+    "@nlpjs/lang-en": "^4.26.1",
+    "@nlpjs/lang-id": "^4.26.1",
+    "@tensorflow/tfjs": "^3.8.0",
+    "@tensorflow/tfjs-node": "^3.8.0",
+    "axios": "^0.24.0",
+    "cheerio": "^1.0.0-rc.12",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^8.5.1",
+    "node-nlp": "^4.27.0"
+  }
+}
