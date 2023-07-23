@@ -1,3 +1,87 @@
+# Cara Pemakaian Repositori di GitHub
+
+Dokumentasi ini akan memberikan panduan tentang cara menggunakan repositori ini di GitHub.
+
+## Langkah 1: Clone Repositori
+
+Untuk menggunakan repositori ini, lakukan langkah-langkah berikut untuk meng-clone repositori ke perangkat lokal Anda:
+
+1. Buka terminal atau Git Bash di komputer Anda.
+2. Gunakan perintah berikut untuk clone repositori:
+
+```bash
+git clone https://github.com/nama_pengguna/nama_repositori.git
+```
+
+Pastikan Anda mengganti `nama_pengguna` dan `nama_repositori` dengan URL repositori yang sesuai.
+
+![Clone Repositori](images/clone-repository.png)
+
+## Langkah 2: Navigasi ke Direktori Repositori
+
+Setelah proses cloning selesai, navigasikan ke direktori repositori yang telah Anda clone menggunakan perintah berikut:
+
+```bash
+cd nama_repositori
+```
+
+Pastikan Anda mengganti `nama_repositori` dengan nama direktori repositori yang telah di-clone.
+
+## Langkah 3: Instal Dependensi
+
+Jika repositori ini memiliki dependensi atau library eksternal yang diperlukan, pastikan Anda menginstalnya terlebih dahulu. Gunakan perintah berikut:
+
+```bash
+npm install
+```
+
+atau
+
+```bash
+yarn install
+```
+
+Pastikan Anda memiliki Node.js dan npm atau Yarn terpasang di komputer Anda sebelum menjalankan perintah di atas.
+
+## Langkah 4: Jalankan Aplikasi
+
+Setelah berhasil menginstal dependensi, Anda dapat menjalankan aplikasi dengan perintah berikut:
+
+```bash
+npm start
+```
+
+atau
+
+```bash
+yarn start
+```
+
+Aplikasi akan dijalankan di server lokal dan Anda dapat mengaksesnya melalui browser dengan membuka alamat `http://localhost:3000`.
+
+## Langkah 5: Kontribusi
+
+Jika Anda ingin berkontribusi pada repositori ini, berikut adalah langkah-langkah umum untuk mengirimkan pull request:
+
+1. Buatlah *branch* baru dengan fitur yang ingin Anda tambahkan atau perbaiki.
+2. Lakukan perubahan yang diperlukan dan lakukan *commit* pada *branch* Anda.
+3. Kirimkan pull request ke repositori utama.
+
+## Bantuan dan Dukungan
+
+Jika Anda mengalami masalah atau memerlukan bantuan lebih lanjut, jangan ragu untuk menghubungi kami melalui [email@example.com](mailto:email@example.com) atau buat *issue* di repositori ini.
+
+Terima kasih atas kontribusi Anda!
+
+---
+
+Catatan: Pastikan Anda mengganti `nama_pengguna` dan `email@example.com` dengan informasi yang relevan dalam dokumentasi Anda.
+
+Gunakan sintaks Markdown untuk menambahkan tautan, gambar, dan gaya teks lainnya. Pastikan untuk menyimpan gambar di folder "images" di dalam repositori Anda untuk mengaksesnya secara relatif.
+
+Contoh tampilan akhir dokumentasi ini akan menampilkan langkah-langkah cara pemakaian yang jelas dengan gambar yang relevan, membuatnya lebih menarik dan mudah dipahami oleh pengguna.
+
+
 ## Chat AI menggunakan TensorFlow.js dan NLP
 
 Selamat datang di dokumentasi untuk Chat AI berbasis TensorFlow.js dan NLP, express! Dalam proyek ini, kami akan membuat sebuah aplikasi chat AI yang dapat memberikan jawaban berdasarkan pertanyaan yang diberikan. Aplikasi ini menggunakan TensorFlow.js untuk model AI dan library Natural untuk analisis sentimen.
