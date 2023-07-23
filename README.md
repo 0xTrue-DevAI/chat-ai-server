@@ -98,12 +98,12 @@ Untuk menggunakan repositori ini, lakukan langkah-langkah berikut untuk meng-clo
 2. Gunakan perintah berikut untuk clone repositori:
 
 ```bash
-git clone https://github.com/nama_pengguna/nama_repositori.git
+git clone https://github.com/0xTrue-DevAI/chat-ai-server.git
 ```
 
 Pastikan Anda mengganti `nama_pengguna` dan `nama_repositori` dengan URL repositori yang sesuai.
 
-![Clone Repositori](images/clone-repository.png)
+![TensorFlow.js]([images/clone-repository.png](https://4.bp.blogspot.com/-Bhfh9UvwHfo/XhKWTevnkxI/AAAAAAAACPg/YvEcxJ19pIQJJloauu5pWZk6C5_twiUpQCLcBGAsYHQ/s1600/tensorflowjs.png))
 
 ## Langkah 2: Navigasi ke Direktori Repositori
 
