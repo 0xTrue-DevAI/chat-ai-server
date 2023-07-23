@@ -162,3 +162,31 @@ Jika Anda mengalami masalah atau memerlukan bantuan lebih lanjut, jangan ragu un
 Terima kasih atas kontribusi Anda!
 
 ---
+## About
+**Tentang Proyek Chat AI dengan TensorFlow.js dan NLP**
+
+Selamat datang di repositori Chat AI! Proyek ini dikembangkan oleh 0xTrue-Dev dan merupakan implementasi Artificial Intelligence (AI) yang memanfaatkan teknologi TensorFlow.js dan Natural Language Processing (NLP) untuk melakukan analisis bahasa dan memberikan jawaban yang relevan terhadap pertanyaan-pertanyaan pengguna.
+
+**Deskripsi Proyek:**
+Proyek ini bertujuan untuk membuat sebuah sistem chatbot cerdas yang dapat merespons pertanyaan pengguna dengan cara yang alami dan informatif. Chat AI menggunakan TensorFlow.js untuk membangun model AI yang mampu melakukan prediksi jawaban berdasarkan data pelatihan yang ada. Model ini mampu memahami dan menganalisis bahasa dalam berbagai bahasa, termasuk bahasa Indonesia dan bahasa Inggris, berkat penggunaan modul NLP yang mendukung beberapa bahasa.
+
+**Teknologi yang Digunakan:**
+- TensorFlow.js: Sebagai kerangka kerja AI yang memungkinkan pembangunan model dan algoritma Machine Learning di sisi klien (browser) maupun di sisi server. Ini memungkinkan implementasi AI yang efisien dan cepat tanpa memerlukan server khusus untuk pengolahan AI.
+- NLP (Natural Language Processing): Modul NLP yang digunakan mendukung pemrosesan bahasa alami dalam berbagai bahasa, memungkinkan sistem untuk menganalisis, memahami, dan merespons bahasa manusia dengan tepat.
+
+**Cara Menggunakan Proyek Ini:**
+1. Pastikan Anda memiliki versi Node.js yang sesuai dan sudah terpasang pada sistem Anda.
+2. Unduh repositori ini dari GitHub dengan menggunakan perintah `git clone` atau unduh file zip.
+3. Masuk ke direktori proyek dan jalankan perintah `npm install` untuk menginstal semua dependensi yang diperlukan.
+4. Anda dapat menggunakan script `start` atau `train` untuk menjalankan aplikasi atau melatih model AI sesuai kebutuhan. Pastikan Anda sudah mengatur konfigurasi dan data pelatihan dengan benar sebelum melatih model.
+
+**Kontribusi dan Masalah:**
+Kami sangat menyambut kontribusi dari komunitas untuk pengembangan proyek ini. Jika Anda menemukan masalah (bug) atau memiliki ide untuk peningkatan, silakan buka _issue_ di [tautan issue](https://github.com/0xTrue-DevAI/chat-ai-server/issues). Jika Anda ingin berkontribusi secara langsung, silakan buat _pull request_ ke repositori ini setelah menyelesaikan perubahan yang diusulkan.
+
+**Lisensi:**
+Proyek ini dilisensikan di bawah lisensi MIT. Silakan merujuk ke berkas LICENSE untuk informasi lebih lanjut mengenai hak cipta dan persyaratan penggunaan.
+
+Kami berharap proyek Chat AI ini bermanfaat bagi banyak orang dan terus berkembang untuk memberikan solusi AI yang cerdas dalam memahami bahasa manusia. Terima kasih atas dukungan dan kontribusi Anda!
+
+Salam,
+0xTrue-Dev
