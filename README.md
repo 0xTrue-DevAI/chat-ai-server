@@ -1,10 +1,10 @@
 
 ## Chat AI menggunakan TensorFlow.js dan NLP
-
+---
 Selamat datang di dokumentasi untuk Chat AI berbasis TensorFlow.js dan NLP, express! Dalam proyek ini, kami akan membuat sebuah aplikasi chat AI yang dapat memberikan jawaban berdasarkan pertanyaan yang diberikan. Aplikasi ini menggunakan TensorFlow.js untuk model AI dan library Natural untuk analisis sentimen.
 
 ### Cara Penggunaan
-
+---
 1. **Training Model (Opsional)**
 
    Sebelum menggunakan Chat AI, Anda dapat melakukan proses training model untuk mempersiapkan model yang sesuai dengan kebutuhan Anda. Proses training ini dilakukan dengan menjalankan `train.js`.
@@ -68,7 +68,7 @@ Selain itu, Anda juga dapat menyesuaikan parameter seperti threshold untuk anali
 - package.json
 - README.md
 ```
-
+---
 - `chatAI.js`: Fungsi-fungsi untuk prediksi jawaban, analisis sentimen, dan web scraping Wikipedia.
 - `predictAnswer.js`: Fungsi-fungsi untuk prediksi jawaban, analisis sentimen.
 - `train.js`: Skrip untuk proses training model (opsional).
@@ -162,9 +162,3 @@ Jika Anda mengalami masalah atau memerlukan bantuan lebih lanjut, jangan ragu un
 Terima kasih atas kontribusi Anda!
 
 ---
-
-Catatan: Pastikan Anda mengganti `nama_pengguna` dan `email@example.com` dengan informasi yang relevan dalam dokumentasi Anda.
-
-Gunakan sintaks Markdown untuk menambahkan tautan, gambar, dan gaya teks lainnya. Pastikan untuk menyimpan gambar di folder "images" di dalam repositori Anda untuk mengaksesnya secara relatif.
-
-Contoh tampilan akhir dokumentasi ini akan menampilkan langkah-langkah cara pemakaian yang jelas dengan gambar yang relevan, membuatnya lebih menarik dan mudah dipahami oleh pengguna.
