@@ -16,7 +16,9 @@
     "api"
   ],
   "author": "0xTrue-Dev",
-  "license": "MIT",
+  "license": "MIT", 
+  "repository": "https://github.com/0xTrue-DevAI/chat-ai-server.git",
+  "issues": "https://github.com/0xTrue-DevAI/chat-ai-server/issues",
   "dependencies": {
     "@nlpjs/lang-en": "^4.26.1",
     "@nlpjs/lang-id": "^4.26.1",
